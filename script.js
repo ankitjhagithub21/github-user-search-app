@@ -63,7 +63,7 @@ const findUser = async (username) => {
     <div class="d-flex flex-column">
         <p><i class="fa-solid fa-location-dot"></i> ${lName}</p>
         <p><i class="fa-brands fa-twitter"></i> ${tName}</p>
-        <p><i class="fa-solid fa-link"></i> ${link}</p>
+        <p><i class="fa-solid fa-link"></i> <a href=${link} class="text-decoration-none" target="_blank">${link}</a></p>
       
     </div>
     
